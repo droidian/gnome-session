@@ -2,8 +2,8 @@
 debian/55gnome-session_gnomerc etc/X11/Xsession.d
 debian/gnome-session_gnomerc.sh etc/profile.d/
 debian/gnome-mimeapps.list usr/share/applications/
-[linux-any] usr/lib/systemd/user/gnome-launched-*
-[linux-any] usr/lib/systemd/user/gnome-session*.service
-[linux-any] usr/lib/systemd/user/gnome-session*.target
+usr/lib/systemd/user/gnome-launched-*
+usr/lib/systemd/user/gnome-session*.service
+usr/lib/systemd/user/gnome-session*.target
 usr/share/locale
 usr/share/xdg-desktop-portal

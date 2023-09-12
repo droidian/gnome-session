@@ -1,5 +1,5 @@
 #!/usr/bin/dh-exec
-[linux-any] usr/lib/systemd/user/gnome-session@gnome.target.d/*
+usr/lib/systemd/user/gnome-session@gnome.target.d/*
 usr/share/doc
 usr/share/gnome-session/sessions/*.session
 usr/share/wayland-sessions/*.desktop
